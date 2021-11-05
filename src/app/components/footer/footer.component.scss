@@ -1,0 +1,39 @@
+.footer-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  box-sizing: border-box;
+  padding-bottom: 70px;
+  margin-left: 15%;
+  margin-right: 15%;
+
+  .footer-header {
+    font-weight: normal !important;
+    margin-bottom: 0;
+    color: #484848
+  }
+
+  .step-badges-container {
+    display: flex;
+    flex-direction: row;
+    box-sizing: border-box;
+
+    @media screen and (max-width: 1250px) {
+      flex-direction: column;
+
+    }
+
+    .step-badge {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      margin-left: 8px;
+      margin-right: 8px;
+
+      @media screen and (max-width: 1250px) {
+
+      }
+    }
+  }
+}

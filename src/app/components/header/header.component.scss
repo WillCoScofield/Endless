@@ -1,0 +1,22 @@
+.header-container {
+  width: 100%;
+  background-color: #272727;
+  height: 55px;
+  display: flex;
+  align-items: center;
+
+  .endless-logo {
+    height: 25px;
+    filter: invert(80%) sepia(20%) saturate(1595%) hue-rotate(110deg) brightness(102%) contrast(101%);
+  }
+
+  .spacer-1 {
+    display: flex;
+    width: 15%;
+  }
+
+  .spacer-2 {
+    display: flex;
+    flex-grow: 1;
+  }
+}

@@ -1,0 +1,42 @@
+.overlay-container {
+  color: white;
+  margin-left: 15%;
+  width: 50%;
+  .large {
+    font-size: 45px;
+    font-weight: normal !important;
+  }
+
+  .medium {
+    margin-top: 0;
+  }
+
+  .small {
+    font-size: 22px;
+    width: 75%;
+  }
+
+  .btn-container {
+    .btn {
+      min-width: 100px;
+      border-radius: 75px;
+      height: 50px;
+      font-family: Lato;
+      background: #19ffd8;
+      color: #484848;
+      width: 20%;
+      cursor: pointer;
+      -webkit-transition: background-color 2s ease-out;
+      -moz-transition: background-color 2s ease-out;
+      -o-transition: background-color 2s ease-out;
+      transition: background-color 2s ease-out;
+    }
+    .btn:hover {
+      background-color: #24ff02;
+      color: white;
+    }
+    .btn:active {
+      color: red;
+    }
+  }
+}

@@ -1,0 +1,10 @@
+<footer class="footer-container">
+  <h2 class="footer-header">How It Works</h2>
+  <section class="step-badges-container">
+    <app-step-badge
+      class="step-badge"
+      [stepBadge]="stepBadge"
+      *ngFor="let stepBadge of stepBadges; let i = index"
+    ></app-step-badge>
+  </section>
+</footer>
