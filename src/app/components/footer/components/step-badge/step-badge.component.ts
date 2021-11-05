@@ -23,15 +23,18 @@ export class StepBadgeComponent implements OnInit {
   }
 
   determineMsgs(versionContents: VersionContent[]) {
+    // sort by most recent
     this.sortedVersionContents = versionContents.sort((a, b) => {
       const dateA = new Date(a.effectiveDate);
       const dateB = new Date(b.effectiveDate);
       return (dateB as any) - (dateA as any);
     })
+    // remove unused data
     this.sortedVersionContents.length = 1;
+
+    // set properties for display
     this.title = this.sortedVersionContents[0].title;
     this.body = this.sortedVersionContents[0].body;
-
   }
 
 }
