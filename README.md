@@ -1,5 +1,5 @@
 # Endless
-Technical Assessment for "Endless". Hi SingleStone! Thanks for taking the time to allow me to show you some of my development skills while considering me for this role. And, thanks for taking the time to provide feedback! I appreciate both.
+Technical Assessment for "Endless".
 
 # Requirements
 1. ~~Download the design comp and assets: https://github.com/singlestone/front-end-technical-exercise-assets~~
