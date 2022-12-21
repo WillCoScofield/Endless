@@ -8,7 +8,7 @@ import { StepBadge } from '../models/stepBadge';
   providedIn: 'root'
 })
 export class DataService {
-  private url = `https://uqnzta2geb.execute-api.us-east-1.amazonaws.com/default/FrontEndCodeChallenge`
+  private url = `https://tntrhl7mm0.execute-api.us-east-1.amazonaws.com/Prod/steps`
   constructor(private http: HttpClient) { }
 
   getStepBadges(): Observable<StepBadge[]> {
